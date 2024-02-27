@@ -8,10 +8,12 @@ import { CardRoxoComponent } from './card-roxo/card-roxo.component';
 import { CardButtonComponent } from './card-button/card-button.component';
 import { CardRoxoButtonComponent } from './card-roxo-button/card-roxo-button.component';
 import { CardsModule } from './cards/cards.module';
+import { InlineComponent } from './inline/inline.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InlineComponent
   ],
   imports: [
     BrowserModule,
