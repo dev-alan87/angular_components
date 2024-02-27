@@ -7,18 +7,21 @@ import { Component } from '@angular/core';
     <div class="card-cancel-button">Cancelar</div>
   `,
   //styleUrl: './card-button-cancel.component.scss'
-  styles: [`
+  styles: [
+    `
     .card-cancel-button {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 25px;
-    background-color: #d41010d0;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px;
-}
-  `],
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px;
+      border-radius: 25px;
+      background-color: #d41010d0;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px;
+  }
+  
+  `,
+  ],
 })
 export class CardButtonCancelComponent {
 
